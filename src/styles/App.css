@@ -12,20 +12,33 @@ header {
   text-align: center;
 }
 
+section {
+  padding: 2em;
+}
+
 nav ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  color: white;
+  overflow: hidden;
+  background-color: #333;
 }
 
 nav ul li {
-  margin: 0 1em;
+  float: left;
 }
 
-section {
-  padding: 2em;
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
 }
 
 footer {
