@@ -1,6 +1,6 @@
 {
-  "name": "emme-portfolio",
-  "version": "1.0",
+  "name": "react-portfolio-template",
+  "version": "3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
