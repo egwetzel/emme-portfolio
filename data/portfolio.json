@@ -1,9 +1,8 @@
 {
     "name":"Emmeline Wetzel",
-    "headerTaglineOne":"Hi!",
-    "headerTaglineTwo":"I'm Emmeline Wetzel",
-    "headerTaglineThree":"designer, developer, and student",
-    "headerTaglineFour":" based in Pittsburgh.",
+    "headerTaglineOne":"Emmeline Wetzel:",
+    "headerTaglineTwo":"designer, developer, and student",
+    "headerTaglineThree":"at Carnegie Mellon University.",
     "showCursor":true,
     "showBlog":false,
     "darkMode":false,
