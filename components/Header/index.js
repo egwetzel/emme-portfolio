@@ -6,12 +6,12 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, isHome }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name, showResume } = data;
 
   useEffect(() => {
     setMounted(true);
@@ -31,21 +31,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </h1>
 
               <div className="flex items-center">
-                {data.darkMode && (
-                  <Button
-                    onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
-                    }
-                  >
-                    <img
-                      className="h-6"
-                      src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
-                      }`}
-                    ></img>
-                  </Button>
-                )}
-
                 <Popover.Button>
                   <img
                     className="h-5"
@@ -67,31 +52,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 theme === "dark" ? "bg-slate-800" : "bg-white"
               } shadow-md rounded-md`}
             >
-              {!isBlog ? (
+              {isHome ? (
                 <div className="grid grid-cols-1">
                   <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
-                  {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:emmeportfolio@gmail.com")
-                      }
-                    >
-                      Resume
-                    </Button>
-                  )}
-
-                  <Button
-                    onClick={() => window.open("mailto:emmeportfolio@gmail.com")}
-                  >
-                    Contact
-                  </Button>
-                </div>
-              ) : (
-                <div className="grid grid-cols-1">
-                  <Button onClick={() => router.push("/")} classes="first:ml-1">
-                    Home
-                  </Button>
                   {showResume && (
                     <Button
                       onClick={() => router.push("/resume")}
@@ -100,7 +64,23 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
-
+                  <Button
+                    onClick={() => window.open("mailto:emmeportfolio@gmail.com")}
+                  >
+                    Contact
+                  </Button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1">
+                  <Button onClick={() => router.push("/")}>Home</Button>
+                  {showResume && (
+                    <Button
+                      onClick={() => router.push("/resume")}
+                      classes="first:ml-1"
+                    >
+                      Resume
+                    </Button>
+                  )}
                   <Button
                     onClick={() => window.open("mailto:emmeportfolio@gmail.com")}
                   >
@@ -112,72 +92,45 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </>
         )}
       </Popover>
-      <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
-      >
-        <h1
-          onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+      <div className={'header h-16 sticky top-0 z-10 bg-white'}>
+        <div
+          className={`mt-10 hidden flex-row items-center justify-between ${
+            theme === "light" && "bg-white"
+          } dark:text-white tablet:flex`}
         >
-          {name}.
-        </h1>
-        {!isBlog ? (
-          <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
+          <h1
+            onClick={() => router.push("/")}
+            className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          >
+            {name}
+          </h1>
+          {isHome ? (
+            <div className="flex">
+              <Button onClick={handleWorkScroll}>Work</Button>
+              <Button onClick={handleAboutScroll}>About</Button>
+              {showResume && (
+                <Button onClick={() => router.push("/resume")} classes="first:ml-1">
+                  Resume
+                </Button>
+              )}
+              <Button onClick={() => window.open("mailto:emmeportfolio@gmail.com")}>
+                Contact
               </Button>
-            )}
-
-            <Button onClick={() => window.open("mailto:emmeportfolio@gmail.com")}>
-              Contact
-            </Button>
-            {mounted && theme && data.darkMode && (
-              <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                <img
-                  className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+            </div>
+          ) : (
+            <div className="flex">
+              <Button onClick={() => router.push("/")}>Home</Button>
+              {showResume && (
+                <Button onClick={() => router.push("/resume")} classes="first:ml-1">
+                  Resume
+                </Button>
+              )}
+              <Button onClick={() => window.open("mailto:emmeportfolio@gmail.com")}>
+                Contact
               </Button>
-            )}
-          </div>
-        ) : (
-          <div className="flex">
-            <Button onClick={() => router.push("/")}>Home</Button>
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
-            )}
-
-            <Button onClick={() => window.open("mailto:emmeportfolio@gmail.com")}>
-              Contact
-            </Button>
-
-            {mounted && theme && data.darkMode && (
-              <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                <img
-                  className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
-              </Button>
-            )}
-          </div>
-        )}
+            </div>
+          )}
+        </div>
       </div>
     </>
   );

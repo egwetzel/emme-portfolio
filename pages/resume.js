@@ -4,7 +4,6 @@ import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
-import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
 import { name, showResume } from "../data/portfolio.json";
@@ -30,7 +29,7 @@ const Resume = () => {
           data.showCursor && "cursor-none"
         }`}
       >
-        <Header isBlog />
+        <Header isHome={false}/>
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
@@ -67,7 +66,13 @@ const Resume = () => {
                     {resume.education.universityDate}
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
+                    {resume.education.universityPara1}
+                  </p>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara2}
+                  </p>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara3}
                   </p>
                 </div>
               </div>
