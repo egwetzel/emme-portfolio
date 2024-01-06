@@ -25,7 +25,7 @@ const Work = () => {
             data.showCursor && "cursor-none"
           }`}
         >
-          <Header isBlog />
+          <Header/>
         </div>
 
         <WorkPage
