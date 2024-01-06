@@ -67,7 +67,13 @@ const Resume = () => {
                     {resume.education.universityDate}
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
+                    {resume.education.universityPara1}
+                  </p>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara2}
+                  </p>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara3}
                   </p>
                 </div>
               </div>

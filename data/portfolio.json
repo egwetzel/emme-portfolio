@@ -63,7 +63,9 @@
         "education":{
             "universityName":"Carnegie Mellon University",
             "universityDate":"Graduating May 2024",
-            "universityPara":"Information Systems Major \n Human Computer Interaction Minor \n French and Francophone Cultures Minor"
+            "universityPara1":"Information Systems Major",
+            "universityPara2":"Human Computer Interaction Minor", 
+            "universityPara3":"French and Francophone Cultures Minor"
         },
         "languages":["Javascript","HTML5","CSS","Python","Go"],
         "frameworks":["React","Typescript","NodeJs"],
