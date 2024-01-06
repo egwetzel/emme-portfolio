@@ -6,7 +6,6 @@ import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
 
@@ -102,7 +101,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                onClick={() => router.push("/work")}
               />
             ))}
           </div>

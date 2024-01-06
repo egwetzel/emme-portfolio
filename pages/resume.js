@@ -4,7 +4,6 @@ import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
-import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
 import { name, showResume } from "../data/portfolio.json";

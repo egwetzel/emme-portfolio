@@ -23,8 +23,14 @@
         {"id":"1",
         "title":"Let's Walk!",
         "description":"iOS App",
-        "imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url":"emme.com"}
+        "about":"This project focused on ...",
+        "imageSrc1":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "imageSrc2":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "link1Name":"Figma",
+        "link1":"https://figma.com",
+        "link2Name":"Presentation",
+        "link2":"https://canva.com"
+        }
     ],
     "aboutpara":"As a senior studying Information Systems, I am passionate about the intersection of technology and human desires. I have a strong interest in full stack & front-end engineering as well as design research. Through my academic coursework and extracurricular activities, I have gained technical skills in programming languages such as Java and Python, as well as experience with design principles and tools. I am eager to apply my skills and continue learning in a dynamic and challenging environment where I can collaborate with diverse teams.",
     "resume":{
