@@ -75,3 +75,7 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+.header {
+  /* TODO: add fixed background here */
+}

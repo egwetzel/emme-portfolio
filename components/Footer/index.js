@@ -9,9 +9,9 @@ const Footer = ({}) => {
     <div className="mt-10">
       <Socials />
     </div>
-    
+
     <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-      Created by Emmeline Wetzel
+      Created by Emmeline Wetzel using React
     </h1>
     </>
   );

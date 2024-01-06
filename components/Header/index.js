@@ -112,6 +112,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </>
         )}
       </Popover>
+      <div className={'header'}>
       <div
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
@@ -121,7 +122,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
         >
-          {name}.
+          {name}
         </h1>
         {!isBlog ? (
           <div className="flex">
@@ -178,6 +179,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
           </div>
         )}
+      </div>
       </div>
     </>
   );
