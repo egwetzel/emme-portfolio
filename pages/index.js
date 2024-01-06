@@ -63,6 +63,7 @@ export default function Home() {
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          isHome={true}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
