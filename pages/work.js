@@ -3,13 +3,10 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Cursor from "../components/Cursor";
 import Header from "../components/Header";
+import WorkPage from "../components/WorkPage"
 
 const Work = () => {
     const router = useRouter();
-  
-    useEffect(() => {
-      setMount(true);
-    }, []);
 
     const { id } = router.query;
 
@@ -32,15 +29,11 @@ const Work = () => {
         </div>
 
         <WorkPage
-            img1={project.imageSrc1}
-            img2={project.imageSrc2}
+            images={project.images}
             name={project.title}
             description={project.description}
             about={project.about}
-            link1Name={project.link1Name}
-            link1={project.link1}
-            link2Name={project.link2Name}
-            link2={project.link2}
+            links={project.links}
         />
       </>
     );

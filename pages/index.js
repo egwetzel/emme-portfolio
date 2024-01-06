@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import { useRouter } from "next/router";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -45,6 +46,8 @@ export default function Home() {
       { y: 0, x: 0, transform: "scale(1)" }
     );
   }, []);
+
+  const router = useRouter();
 
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
@@ -98,10 +101,10 @@ export default function Home() {
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
-                img={project.imageSrc}
+                img={project.images[0].src}
                 name={project.title}
                 description={project.description}
-                onClick={() => router.push("/work")}
+                onClick={() => router.push(`/work?id=${project.id}`)}
               />
             ))}
           </div>
