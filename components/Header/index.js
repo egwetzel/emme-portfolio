@@ -92,11 +92,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isHome }) => {
           </>
         )}
       </Popover>
-      <div className={'header'}>
+      <div className={'header h-16 sticky top-0 z-10 bg-white'}>
         <div
-          className={`mt-10 hidden flex-row items-center justify-between sticky ${
+          className={`mt-10 hidden flex-row items-center justify-between ${
             theme === "light" && "bg-white"
-          } dark:text-white top-0 z-10 tablet:flex`}
+          } dark:text-white tablet:flex`}
         >
           <h1
             onClick={() => router.push("/")}
