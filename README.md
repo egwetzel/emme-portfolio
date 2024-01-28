@@ -8,6 +8,10 @@
 - Next.js
 - TailwindCSS
 
+### To Deploy
+- Run `yarn predeploy`
+- Run `yarn deploy`
+
 
 
 
