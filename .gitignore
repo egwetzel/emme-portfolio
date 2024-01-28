@@ -19,7 +19,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Exclude everything in the root except the out directory
-/*
-!/out/
