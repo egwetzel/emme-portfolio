@@ -117,6 +117,40 @@
                 "title":"Process Book",
                 "url":"https://docs.google.com/presentation/d/1zJzdTDecjUcQo-2Q84AHvFfFjrrIsu_zyXJRQuNYJQE/edit?usp=sharing"
             }
+        ]},
+        {"id":"4",
+        "title":"Music Festival Website and Media Design",
+        "description":"Taking text and turning it into a beautiful website.",
+        "about":"In this project, I was tasked with designing a website and corresponding social media posts for a Pittsburgh music festival based soley on raw text.",
+        "images": [
+            {
+                "id":"1",
+                "src":"https://www.dropbox.com/scl/fi/nssj6ddin8g43i0gqqpo5/Deliverable-Round-1-Day-1.png?rlkey=vbwswo8xwbfbwtogk3dof7b2b&raw=1"
+            },
+            {
+                "id":"2",
+                "src":"https://www.dropbox.com/scl/fi/7spsmuxwx7bcf1a9k9hzv/Deliverable-Round-1-Day-2.png?rlkey=jyrobqcde55x6mhc6qeedaupp&raw=1"
+            },
+            {
+                "id":"3",
+                "src":"https://www.dropbox.com/scl/fi/jffsv9lo53hmlky0mnpbx/Deliverable-Round-1-Day-3.png?rlkey=8pgmn0s9jlcz8ir7nh4toxxa1&raw=1"
+            },
+            {
+                "id":"4",
+                "src":"https://www.dropbox.com/scl/fi/73sc2h9wax9m7yrq6t3uo/Deliverable-Round-1.png?rlkey=aiwsrhs5qzsl6l1z73w7cx84w&raw=1"
+            }
+        ],
+        "links": [
+            {
+                "id":"1",
+                "title":"Figma",
+                "url":"https://www.figma.com/file/P1r9LLfOv1vc2ZxhvUr3Oh/A1-Assignment-Description%3A-Pittsburgh-Music-Festival-Website?type=design&node-id=336%3A1596&mode=design&t=IK9BJXmTL4AwQUOs-1"
+            },
+            {
+                "id":"2",
+                "title":"Process Book",
+                "url":"https://docs.google.com/presentation/d/1-THvjMfe_ydr46CiSne5-Mwn2g5v8jCJmIXUFbTyk9E/edit?usp=sharing"
+            }
         ]}
     ],
     "aboutpara":"As a senior studying Information Systems, I am passionate about the intersection of technology and human desires. I have a strong interest in full stack & front-end engineering as well as design research. Through my academic coursework and extracurricular activities, I have gained technical skills in programming languages such as Java and Python, as well as experience with design principles and tools. I am eager to apply my skills and continue learning in a dynamic and challenging environment where I can collaborate with diverse teams.",
