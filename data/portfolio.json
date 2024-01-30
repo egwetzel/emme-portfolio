@@ -19,6 +19,42 @@
     ],
     "projects":[
         {"id":"1",
+        "title":"Designing For Semi-Autonomous Vehicles",
+        "description":"Figma and Physical Prototype",
+        "about":"For this project, my team underwent the design process for creating a semi-autonomous e-bike. We created a physical prototype and digital prototype while also creating several other artifacts along the way. If you would like to see an image of the physical prototype, please contact me, as it contains my team members images, which I do not wish to have on the internet at this time.",
+        "images": [
+            {
+                "id":"1",
+                "src":"https://www.dropbox.com/scl/fi/d6gy7hwl1le7e6m510xb9/Navigation-with-Autonomy-On.png?rlkey=uj4p8yqnze1ew436e2968zmex&raw=1"
+            },
+            {
+                "id":"2",
+                "src":"https://www.dropbox.com/scl/fi/02m98pv3ou9lygtr0hnhh/Autonomy-Off-Countdown.png?rlkey=oey8xlty6gqegr7yxq5vjpoz4&raw=1"
+            }
+        ],
+        "links": [
+            {
+                "id":"1",
+                "title":"Figma",
+                "url":"https://www.figma.com/file/TMdCoGVQhtO59NZrjlRDso/Digital-Prototyping?type=design&node-id=616%3A4687&mode=design&t=bpOEkLaPKXzsiU6g-1"
+            },
+            {
+                "id":"2",
+                "title":"Research",
+                "url":"https://www.figma.com/file/czxq0fo6Wdmljic1hTwGY2/Initial-Research?type=whiteboard&node-id=0%3A1&t=ZwEZtRFXxsvUgWMM-1"
+            },
+            {
+                "id":"3",
+                "title":"Task Analysis",
+                "url":"https://www.figma.com/file/4RRt4XnBj1KOQXmzbDxYYV/Task-Analysis?type=whiteboard&node-id=0%3A1&t=KL3zTfJZByQbcxnK-1"
+            },
+            {
+                "id":"4",
+                "title":"Design Book",
+                "url":"https://docs.google.com/presentation/d/1094cZ-hBpVTkcxysH9IDhYBHSjzIm2xrdEd6AnMoIio/edit?usp=sharing"
+            }
+        ]},
+        {"id":"2",
         "title":"Let's Walk!",
         "description":"iOS App",
         "about":"This project involved the creation of an iOS app from scratch using the Swift programming language. If you would like to view the code, please contact me for repository access.",
@@ -54,42 +90,6 @@
                 "id":"2",
                 "title":"Presentation",
                 "url":"https://www.canva.com/design/DAF7N5lx2yM/9zwH3NfGQHQClLxfFmh1dw/edit?utm_content=DAF7N5lx2yM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-            }
-        ]},
-        {"id":"2",
-        "title":"Designing For Semi-Autonomous Vehicles",
-        "description":"Figma and Physical Prototype",
-        "about":"For this project, my team underwent the design process for creating a semi-autonomous e-bike. We created a physical prototype and digital prototype while also creating several other artifacts along the way. If you would like to see an image of the physical prototype, please contact me, as it contains my team members images, which I do not wish to have on the internet at this time.",
-        "images": [
-            {
-                "id":"1",
-                "src":"https://www.dropbox.com/scl/fi/d6gy7hwl1le7e6m510xb9/Navigation-with-Autonomy-On.png?rlkey=uj4p8yqnze1ew436e2968zmex&raw=1"
-            },
-            {
-                "id":"2",
-                "src":"https://www.dropbox.com/scl/fi/02m98pv3ou9lygtr0hnhh/Autonomy-Off-Countdown.png?rlkey=oey8xlty6gqegr7yxq5vjpoz4&raw=1"
-            }
-        ],
-        "links": [
-            {
-                "id":"1",
-                "title":"Figma",
-                "url":"https://www.figma.com/file/TMdCoGVQhtO59NZrjlRDso/Digital-Prototyping?type=design&node-id=616%3A4687&mode=design&t=bpOEkLaPKXzsiU6g-1"
-            },
-            {
-                "id":"2",
-                "title":"Research",
-                "url":"https://www.figma.com/file/czxq0fo6Wdmljic1hTwGY2/Initial-Research?type=whiteboard&node-id=0%3A1&t=ZwEZtRFXxsvUgWMM-1"
-            },
-            {
-                "id":"3",
-                "title":"Task Analysis",
-                "url":"https://www.figma.com/file/4RRt4XnBj1KOQXmzbDxYYV/Task-Analysis?type=whiteboard&node-id=0%3A1&t=KL3zTfJZByQbcxnK-1"
-            },
-            {
-                "id":"4",
-                "title":"Design Book",
-                "url":"https://docs.google.com/presentation/d/1094cZ-hBpVTkcxysH9IDhYBHSjzIm2xrdEd6AnMoIio/edit?usp=sharing"
             }
         ]},
         {"id":"3",
