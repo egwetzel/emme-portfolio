@@ -103,8 +103,8 @@
             "universityPara2":"Human Computer Interaction Minor", 
             "universityPara3":"French and Francophone Cultures Minor"
         },
-        "languages":["Javascript","HTML5","CSS","Python","Go"],
-        "frameworks":["React","Typescript","NodeJs"],
-        "others":["Figma","AdobeXD","AWS"]
+        "languages":["Python","Java","C","Ruby","Javascript","Swift","R","SQL","NoSQL","Typescript"],
+        "frameworks":["React","NodeJs","Ruby on Rails","Bootstrap"],
+        "others":["Figma","AdobeXD","AWS","Oracle Cloud","Sci-Kit Learn","Docker"]
     }
 }
