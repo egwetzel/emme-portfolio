@@ -1,7 +1,7 @@
 {
     "name":"Emmeline Wetzel",
     "headerTaglineOne":"Emmeline Wetzel:",
-    "headerTaglineTwo":"designer, developer, and student",
+    "headerTaglineTwo":"Designer, developer, and student",
     "headerTaglineThree":"at Carnegie Mellon University.",
     "showCursor":true,
     "showResume":true,
@@ -21,15 +21,15 @@
         {"id":"1",
         "title":"Let's Walk!",
         "description":"iOS App",
-        "about":"This project focused on ...",
+        "about":"This project involved the creation of an iOS app from scratch using the Swift programming language.",
         "images": [
             {
                 "id":"1",
-                "src":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                "src":"../images/lets_walk_home.png"
             },
             {
                 "id":"2",
-                "src":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                "src":"../images/apple_watch.png"
             }
         ],
         "links": [
