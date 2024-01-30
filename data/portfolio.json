@@ -91,6 +91,32 @@
                 "title":"Design Book",
                 "url":"https://docs.google.com/presentation/d/1094cZ-hBpVTkcxysH9IDhYBHSjzIm2xrdEd6AnMoIio/edit?usp=sharing"
             }
+        ]},
+        {"id":"3",
+        "title":"Children's Museum Website Design",
+        "description":"Website Design for Archetypes",
+        "about":"In this project, I was tasked with designing a website for the Children's Museum of Pittsburgh that incorporated multiple user archetypes at one time. I additionally had to plan a site map.",
+        "images": [
+            {
+                "id":"1",
+                "src":"https://www.dropbox.com/scl/fi/ugyqr1r9mslyioa8mmafb/museum_top.png?rlkey=fx19ecux2xm2mhf1ptuopc85d&raw=1"
+            },
+            {
+                "id":"2",
+                "src":"https://www.dropbox.com/scl/fi/ivyxwcmogmbotp6sfeywx/museum_events.png?rlkey=mj274s55br90ahkygwhjbeb7w&raw=1"
+            }
+        ],
+        "links": [
+            {
+                "id":"1",
+                "title":"Figma",
+                "url":"https://www.figma.com/file/vtCkTvYqJvKY8HUa6LBdAd/Interaction-Design-Fundamentals-U2-A2?type=design&node-id=0%3A1&mode=design&t=g1x7s02jGK281BTb-1"
+            },
+            {
+                "id":"2",
+                "title":"Process Book",
+                "url":"https://docs.google.com/presentation/d/1zJzdTDecjUcQo-2Q84AHvFfFjrrIsu_zyXJRQuNYJQE/edit?usp=sharing"
+            }
         ]}
     ],
     "aboutpara":"As a senior studying Information Systems, I am passionate about the intersection of technology and human desires. I have a strong interest in full stack & front-end engineering as well as design research. Through my academic coursework and extracurricular activities, I have gained technical skills in programming languages such as Java and Python, as well as experience with design principles and tools. I am eager to apply my skills and continue learning in a dynamic and challenging environment where I can collaborate with diverse teams.",
